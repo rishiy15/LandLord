@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="notification_done">DONE</string>
+    <string-array name="calendarTasks">
+        <item>Take Sparky out for a walk</item>
+        <item>Do the dishes</item>
+        <item>Prepare a nice Italian dinner</item>
+    </string-array>
 </resources>

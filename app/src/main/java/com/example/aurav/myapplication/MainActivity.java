@@ -29,19 +29,19 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
 
     private static int[] _unSelTabIcons = {
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher
+            R.drawable.ic_home_white_24dp,
+            R.drawable.ic_question_answer_white_24dp,
+            R.drawable.ic_perm_contact_calendar_white_24dp,
+            R.drawable.ic_assignment_white_24dp,
+            R.drawable.ic_payment_white_24dp
     };
 
     private static int[] _selTabIcons = {
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher,
-            R.mipmap.ic_launcher
+            R.drawable.ic_home_white_24dp,
+            R.drawable.ic_question_answer_white_24dp,
+            R.drawable.ic_perm_contact_calendar_white_24dp,
+            R.drawable.ic_assignment_white_24dp,
+            R.drawable.ic_payment_white_24dp
     };
 
     @Override

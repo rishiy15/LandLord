@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.aurav.myapplication.Fragments.HomeFragment">
 
-    <TextView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="80dp"
-        android:text="HOME"/>
+        android:id="@+id/list_tasks"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

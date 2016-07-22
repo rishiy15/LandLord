@@ -61,6 +61,8 @@ public class HomeFragment extends Fragment {
         task.setSummary("Having Breakfast");
         taskList.add(task);
 
+        UpdateListView();
+
         listView.setAdapter(new HomeAdapter(this.getContext(), R.layout.single_task, taskList));
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -70,5 +72,9 @@ public class HomeFragment extends Fragment {
         });
 
         return v;
+    }
+
+    private void UpdateListView() {
+
     }
 }
